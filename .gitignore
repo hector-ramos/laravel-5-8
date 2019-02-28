@@ -62,6 +62,8 @@ typings/
 
 # laravel 
 vendor/
+/public/js
+/public/css
 /public/hot
 /public/storage
 /storage/*.key
