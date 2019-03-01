@@ -61,11 +61,13 @@ typings/
 .next
 
 # laravel 
-vendor/
-/public/js
-/public/css
-/public/hot
-/public/storage
+public/js/*
+public/css/*
+public/hot
+public/fonts/*
+public/images/*
+public/storage
+.DS_Store
 /storage/*.key
 /vendor
 .phpunit.result.cache
