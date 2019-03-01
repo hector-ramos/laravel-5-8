@@ -68,6 +68,7 @@ public/fonts/*
 public/images/*
 public/storage
 .DS_Store
+*.DS_Store
 /storage/*.key
 /vendor
 .phpunit.result.cache
