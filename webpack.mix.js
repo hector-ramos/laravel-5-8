@@ -14,3 +14,7 @@ const mix = require('laravel-mix');
 mix.js('resources/js/vendor.js', 'public/js/vendor.js')
     .js('resources/js/common.js', 'public/js/app.js')
    .sass('resources/sass/app.sass', 'public/css');
+
+// enable compiled assets versioning
+mix.version();
+
