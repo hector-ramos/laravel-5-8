@@ -18,3 +18,6 @@ mix.js('resources/js/vendor.js', 'public/js/vendor.js')
 // enable compiled assets versioning
 mix.version();
 
+// disable notification
+mix.disableNotifications();
+
